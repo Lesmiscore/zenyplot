@@ -1,0 +1,6 @@
+set datafile separator ","
+
+set terminal png
+set output 'test.png'
+
+plot "data.csv" using 1:2 with dots
