@@ -1,6 +1,6 @@
 set datafile separator ","
 
-set terminal png size 7680,1440
+set terminal png size 15360,1440
 set output 'test.png'
 
 plot "data.csv" using 1:2 with lines
